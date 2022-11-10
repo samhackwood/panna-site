@@ -3,11 +3,10 @@ const mongoose = require("mongoose");
 
 const artSchema = mongoose.Schema({
     test: {
-        type: string,
+        type: String,
         required: true,
         maxlength: [300, "You exceeded the number of characters"]
     },
-    
 },
 {
     timestamps: true
