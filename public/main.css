@@ -1,0 +1,41 @@
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    text-align: center;
+    background: url("sunset.webp");
+    background-size: cover;
+}
+body {
+    background-color: rgb(237, 237, 237);
+    font-family: 'Inconsolata';
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: linen;
+}
+
+ul {
+    padding: 7px;
+    background: rgba(0,0,0,0.5);
+
+}
+
+li {
+    display: inline;
+    padding: 0px 75px 0px 75px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+h1 {
+    font-family:monospace;
+}
+
+a {
+    color: linen;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
